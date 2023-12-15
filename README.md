@@ -1,4 +1,4 @@
-# Guide on how to build a simple docker
+# Guide on how to build a simple Docker container from Flask API
 
 ## Introduction
 This repository is an example on how to create a docker image and run in on your localhost with Flask API.
