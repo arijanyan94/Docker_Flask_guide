@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  internet_compressed:
+    container_name: internet_compressed
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+    ports:
+      - 8060:8060
+    environment:
+      - ENVIRONMENT=dev
